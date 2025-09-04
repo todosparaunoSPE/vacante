@@ -65,7 +65,8 @@ st.markdown("""
 
 # Sidebar para navegación
 st.sidebar.title("Desarrollado por: Javier Horacio Pérez Ricárdez")
-st.sidebar.subtitle("🔍 Navegación")
+st.sidebar.markdown("---")
+st.sidebar.markdown("**🔍 Navegación**")
 seccion = st.sidebar.selectbox(
     "Selecciona una sección:",
     ["🏠 Inicio", "📈 Análisis Estadístico", "📊 Visualizaciones Avanzadas", 
@@ -514,4 +515,5 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
 
