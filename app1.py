@@ -508,7 +508,8 @@ elif seccion == "👤 Perfil Profesional":
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; padding: 20px;">
-    <p>💻 Desarrollado con Streamlit | 📊 Portfolio de Análisis de Datos | 🇲🇽 México 2024</p>
+    <p>💻 Desarrollado por: JAVIER HORACIO PEREZ RICARDEZ | 📊 Portfolio de Análisis de Datos | 🇲🇽 México 2025</p>
     <p><em>Aplicación creada para demostrar habilidades en análisis de datos, visualización y vocación de servicio público</em></p>
 </div>
+
 """, unsafe_allow_html=True)
